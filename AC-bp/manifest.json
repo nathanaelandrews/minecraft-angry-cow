@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Angry Cow Behavior Pack",
+    "description": "Makes cows turn red and attack players when provoked.",
+    "uuid": "ff5a73fb-df9a-47dd-b42c-1b133b907c32",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d5e27104-c389-43da-8fff-60236421d82c",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5679629e-9185-438d-9160-0af4f6e20185",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "undefined" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "8.0.31"
+      ]
+    }
+  }
+}

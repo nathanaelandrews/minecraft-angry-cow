@@ -1,0 +1,20 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.angry_cow": {
+        "geometry": "Geometry.default",
+        "materials": [
+          { "default": "Material.default" }
+        ],
+        "textures": [
+          "Texture.default"
+        ],
+        "color": {
+          "r": "query.is_angry ? 1.0 : 1.0",
+          "g": "query.is_angry ? 0.3 : 1.0", 
+          "b": "query.is_angry ? 0.3 : 1.0",
+          "a": 1.0
+        }
+      }
+    }
+  }

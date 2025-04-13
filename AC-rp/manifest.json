@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Angry Cow Resources",
+    "description": "Textures and visuals for angry cows.",
+    "uuid": "5679629e-9185-438d-9160-0af4f6e20185",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2bddbd43-2ad0-4b9b-b59d-c27515d7b387",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "undefined" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "8.0.31"
+      ]
+    }
+  }
+}
