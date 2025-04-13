@@ -2,13 +2,25 @@
     "format_version": "1.8.0",
     "render_controllers": {
       "controller.render.angry_cow": {
-        "geometry": "Geometry.default",
-        "materials": [
-          { "default": "Material.default" }
-        ],
-        "textures": [
-          "Texture.default"
-        ],
+        "arrays": {
+          "textures": {
+            "Array.textures": [
+              "Texture.default",
+              "Texture.warm",
+              "Texture.cold"
+            ]
+          },
+          "geometries": {
+            "Array.geos": [
+              "Geometry.default",
+              "Geometry.warm",
+              "Geometry.cold"
+            ]
+          }
+        },
+        "geometry": "Array.geos[v.index]",
+        "materials": [ { "*": "v.is_cold ? Material.cold : Material.default" } ],
+        "textures": [ "Array.textures[v.index]" ],
         "color": {
           "r": "query.is_angry ? 1.0 : 1.0",
           "g": "query.is_angry ? 0.3 : 1.0", 
