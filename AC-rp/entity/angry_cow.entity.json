@@ -9,9 +9,9 @@
         "cold": "cow_cold"
       },
       "textures": {
-        "default": "textures/entity/cow/angry_cow",
-        "warm": "textures/entity/cow/angry_cow_warm",
-        "cold": "textures/entity/cow/angry_cow_cold"
+        "default": "textures/entity/angry_cow/angry_cow",
+        "warm": "textures/entity/cow/angry_cow/angry_cow_warm",
+        "cold": "textures/entity/cow/angry_cow/angry_cow_cold"
       },
       "geometry": {
         "default": "geometry.cow.v2",
